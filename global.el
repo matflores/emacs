@@ -4,7 +4,7 @@
 (setq backup-inhibited t)               ; disable backup files (foo~)
 (setq auto-save-list-file-prefix nil)   ; disable auto-save-list/.saves
 
-(setq yes-or-no-p 'y-or-n-p)            ; use y/n instead of yes/no
+(defalias 'yes-or-no-p 'y-or-n-p)       ; use y/n instead of yes/no
 
 (setq ring-bell-function 'ignore)       ; disable bell
 (setq visible-bell nil)                 ; disable visual bell
