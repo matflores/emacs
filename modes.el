@@ -42,18 +42,7 @@
 (add-to-list 'auto-mode-alist '("Rakefile"    . ruby-mode))
 (add-to-list 'auto-mode-alist '("Thorfile"    . ruby-mode))
 (add-hook 'ruby-mode-hook
-          (lambda ()
-            (add-hook 'local-write-file-hooks
-                      '(lambda()
-                         (save-excursion
-                           (untabify (point-min) (point-max)))))
-            (require 'ruby-electric)
-            (ruby-electric-mode t)
-            (require 'ruby-block)
-            (ruby-block-mode t)
-            (set (make-local-variable 'ruby-block-mode-toggle) t)
-            (set (make-local-variable 'indent-tabs-mode) 'nil)
-            (set (make-local-variable 'tab-width) 2)))
+          (lambda () (ruby-electric-mode t)))
 
 ;; rvm
 (vendor 'rvm)
