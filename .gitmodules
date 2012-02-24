@@ -31,3 +31,6 @@
 [submodule "vendor/cheat"]
 	path = vendor/cheat
 	url = git://github.com/defunkt/cheat.el.git
+[submodule "vendor/twilight"]
+	path = vendor/twilight
+	url = git://github.com/nhunzaker/twilight-theme.git

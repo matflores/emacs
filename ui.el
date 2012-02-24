@@ -1,7 +1,5 @@
 (provide 'ui)
 
-(load-theme 'deeper-blue)               ; select theme
-
 (setq inhibit-startup-screen t)         ; omit startup screen
 
 (menu-bar-mode t)                       ; display menu bar
@@ -18,3 +16,8 @@
 (setq search-highlight t)               ; highlight incremental search
 
 (global-font-lock-mode t)               ; enable font-lock mode in all buffers
+
+(setq custom-safe-themes t)             ; treat all themes as safe
+(add-to-list 'custom-theme-load-path    ; configure path for custom themes
+             "~/.emacs.d/vendor/twilight")
+(load-theme 'twilight)                  ; load twilight theme
