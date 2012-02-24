@@ -1,5 +1,8 @@
 (provide 'modes)
 
+;; cheat
+(vendor 'cheat)
+
 ;; gist
 (vendor 'gist)
 
