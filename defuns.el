@@ -5,6 +5,11 @@
   (interactive)
   (kill-buffer (current-buffer)))
 
+;; open bash terminal
+(defun bash-term ()
+  (interactive)
+  (ansi-term "/bin/bash"))
+
 ;; load libraries from the vendor directory
 (defun vendor (library)
   (let* ((file (symbol-name library))
