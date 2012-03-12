@@ -21,3 +21,5 @@
 (savehist-mode t)                       ; save minibuffer history across sessions
 (setq savehist-file                     ; on the .savehist file
       "~/.emacs.d/.savehist")
+
+(server-start)                          ; start the Emacs server
