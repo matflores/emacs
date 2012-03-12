@@ -21,7 +21,8 @@
 
 (global-set-key (kbd "C-x C-h") 'bash-term)     ; open terminal buffer
 
-(global-set-key (kbd "C-x g") 'magit-status)    ; magit status
+(global-set-key (kbd "C-x g")   'magit-status)  ; magit status
+(global-set-key (kbd "C-x C-g") 'magit-status)  ; magit status
 
 (global-set-key (kbd "C-x c") 'execute-extended-command) ; M-x without meta
 (global-set-key (kbd "C-x m") 'execute-extended-command) ; M-x without meta
