@@ -3,6 +3,7 @@
 (global-set-key (kbd "s-o") 'find-file)         ; open file
 (global-set-key (kbd "s-w") 'close-buffer)      ; close current buffer
 (global-set-key (kbd "s-k") 'kill-this-buffer)  ; close current buffer
+(global-set-key (kbd "C-w") 'kill-word)         ; delete word
 
 (global-set-key [s-up]   'beginning-of-buffer)  ; scroll top
 (global-set-key [s-down] 'end-of-buffer)        ; scroll bottom
