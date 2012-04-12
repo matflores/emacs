@@ -34,3 +34,6 @@
 [submodule "vendor/twilight"]
 	path = vendor/twilight
 	url = git://github.com/nhunzaker/twilight-theme.git
+[submodule "vendor/github-issues-mode"]
+	path = vendor/github-issues-mode
+	url = git://github.com/inkel/github-issues-mode.el.git
