@@ -60,6 +60,10 @@
 (vendor 'textmate)
 (textmate-mode t)
 
+;; uniquify
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'post-forward)
+
 ;; yaml
 (vendor 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
