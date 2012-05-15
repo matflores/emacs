@@ -2,7 +2,7 @@
 
 (setq inhibit-startup-screen t)         ; omit startup screen
 
-(menu-bar-mode t)                       ; display menu bar
+(menu-bar-mode -1)                      ; hide menubar
 (scroll-bar-mode -1)                    ; hide scrollbar
 (tool-bar-mode -1)                      ; hide toolbar
 
