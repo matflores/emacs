@@ -10,6 +10,17 @@
   (interactive)
   (ansi-term "/bin/bash"))
 
+;; resize windows
+(defun resize-windows-horizontally-even ()
+  "Resizes all the current windows to the most even possible size."
+  (interactive)
+  (save-excursion
+    (let* ((qty (length (window-list)))
+           (width (/ (frame-width) qty)))
+      (dolist (window (window-list))
+        (select-window window)
+        (enlarge-window (- width (window-width)) 'horizontal)))))
+
 ;; load libraries from the vendor directory
 (defun vendor (library)
   (let* ((file (symbol-name library))

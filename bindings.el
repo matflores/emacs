@@ -13,6 +13,11 @@
 (global-set-key (kbd "s--") 'text-scale-adjust) ; decrease font size
 (global-set-key (kbd "s-0") 'text-scale-adjust) ; reset font size
 
+(global-set-key (kbd "C-s-<left>")  'shrink-window-horizontally)
+(global-set-key (kbd "C-s-<right>") 'enlarge-window-horizontally)
+(global-set-key (kbd "C-s-<up>")    'shrink-window)
+(global-set-key (kbd "C-s-<down>")  'enlarge-window)
+
 (global-set-key (kbd "C-x C-b") 'ibuffer)       ; use ibuffer instead of buffer list
 
 (global-set-key (kbd "C-x g")   'magit-status)  ; magit status
