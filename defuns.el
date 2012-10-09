@@ -36,6 +36,18 @@
      ((file-exists-p suffix)
       (require library)))))
 
+;; eval preceding sexp and replace it with the result
+;; credits: Magnar Sveen (https://github.com/magnars)
+(defun eval-and-replace ()
+  "Replace the preceding sexp with its value."
+  (interactive)
+  (backward-kill-sexp)
+  (condition-case nil
+      (prin1 (eval (read (current-kill 0)))
+             (current-buffer))
+    (error (message "Invalid expression")
+           (insert (current-kill 0)))))
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;; -*- Mode: Emacs-Lisp -*- ;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; find-library-file.el --- Functions and bindings to make library files
 ;;; more easy to examine and change.
