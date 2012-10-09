@@ -19,6 +19,7 @@
 ;; ido
 (require 'ido)
 (ido-mode t)                            ; enable ido mode
+(setq ido-everywhere t)                 ; use ido everywhere
 (setq ido-use-filename-at-point nil)    ; look for filename at point
 (setq ido-enable-flex-matching t)       ; case insensitive matching
 (setq ido-create-new-buffer 'always)    ; always create a new buffer
