@@ -61,6 +61,10 @@
 ;; scss
 (vendor 'scss-mode)
 
+;; shell
+(custom-set-variables
+ '(comint-prompt-read-only t))          ; make bash prompt read only
+
 ;; textmate
 (vendor 'textmate)
 (textmate-mode t)
