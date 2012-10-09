@@ -53,9 +53,6 @@
 (add-hook 'ruby-mode-hook
           (lambda () (ruby-electric-mode t)))
 
-;; rvm
-(vendor 'rvm)
-
 ;; sass
 (vendor 'sass-mode)
 

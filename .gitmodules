@@ -13,9 +13,6 @@
 [submodule "vendor/ruby-electric"]
 	path = vendor/ruby-electric
 	url = git://github.com/qoobaa/ruby-electric.git
-[submodule "vendor/rvm"]
-	path = vendor/rvm
-	url = git://github.com/senny/rvm.el.git
 [submodule "vendor/sass-mode"]
 	path = vendor/sass-mode
 	url = git://github.com/nex3/sass-mode.git
