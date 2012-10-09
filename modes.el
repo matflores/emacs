@@ -12,7 +12,9 @@
 ;; html
 (add-hook 'html-mode-hook
           '(lambda()
-             (setq tab-width 2)))
+             (setq tab-width 2)
+             (mote-mode t)))
+(add-to-list 'auto-mode-alist '("\\.mote$" . html-mode))
 
 ;; ido
 (require 'ido)
@@ -35,6 +37,9 @@
 (vendor 'markdown-mode)
 (add-to-list 'auto-mode-alist '("\\.md$"       . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.markdown$" . markdown-mode))
+
+;; mote
+(vendor 'mote-mode)
 
 ;; ruby
 (vendor 'ruby-electric)
