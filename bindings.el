@@ -27,3 +27,8 @@
 (global-set-key (kbd "C-h") 'delete-backward-char) ; and C-h as backspace
 
 (global-set-key (kbd "C-x m") 'execute-extended-command) ; M-x without meta
+
+(global-set-key (kbd "C-c C-*") 'mc/edit-lines)          ; add multiple cursors to active region
+(global-set-key (kbd "C-*") 'mc/mark-all-like-this)      ; add multiple cursors using selected keyword
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)     ; add multiple cursors using selected keyword
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this) ; add multiple cursors using selected keyword

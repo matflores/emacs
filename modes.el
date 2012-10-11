@@ -42,6 +42,9 @@
 ;; mote
 (vendor 'mote-mode)
 
+;; multiple-cursors
+(vendor 'multiple-cursors)
+
 ;; ruby
 (vendor 'ruby-electric)
 (add-to-list 'auto-mode-alist '("\\.rake$"    . ruby-mode))

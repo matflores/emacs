@@ -37,3 +37,6 @@
 [submodule "vendor/mote-mode"]
 	path = vendor/mote-mode
 	url = git://github.com/inkel/mote-mode.git
+[submodule "vendor/multiple-cursors"]
+	path = vendor/multiple-cursors
+	url = git://github.com/magnars/multiple-cursors.el.git
