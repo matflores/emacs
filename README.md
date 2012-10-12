@@ -1,5 +1,14 @@
 # My Emacs configuration
 
+## Installation
+
+```
+git clone git://github.com/matflores/emacs ~/.emacs.d
+cd ~/.emacs.d
+git submodule init
+git submodule update
+```
+
 ## Adding modes
 
 * Add new submodule with `git submodule add git://github.com/author/mode.git vendor/mode`
