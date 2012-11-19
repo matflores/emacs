@@ -40,3 +40,6 @@
 [submodule "vendor/multiple-cursors"]
 	path = vendor/multiple-cursors
 	url = git://github.com/magnars/multiple-cursors.el.git
+[submodule "vendor/git-modes"]
+	path = vendor/git-modes
+	url = git://github.com/lunaryorn/git-modes.git
