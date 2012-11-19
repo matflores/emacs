@@ -1,3 +1,4 @@
 .savehist
 .saveplace
+.mc-lists.el
 *.elc
