@@ -43,3 +43,6 @@
 [submodule "vendor/git-commit-mode"]
 	path = vendor/git-commit-mode
 	url = git://github.com/lunaryorn/git-modes.git
+[submodule "vendor/expand-region"]
+	path = vendor/expand-region
+	url = git://github.com/magnars/expand-region.el.git

@@ -3,6 +3,9 @@
 ;; cheat
 (vendor 'cheat)
 
+;; expand-region
+(vendor 'expand-region)
+
 ;; gist
 (vendor 'gist)
 

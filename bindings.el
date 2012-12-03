@@ -32,3 +32,6 @@
 (global-set-key (kbd "C-*") 'mc/mark-all-like-this)      ; add multiple cursors using selected keyword
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)     ; add multiple cursors using selected keyword
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this) ; add multiple cursors using selected keyword
+
+(global-set-key (kbd "s-2") 'er/expand-region)   ; expand region
+(global-set-key (kbd "s-@") 'er/contract-region) ; contract region
