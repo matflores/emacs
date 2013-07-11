@@ -21,8 +21,3 @@
 (add-to-list 'custom-theme-load-path    ; configure path for custom themes
              "~/.emacs.d/vendor/twilight")
 (load-theme 'twilight)                  ; load twilight theme
-
-(vendor 'powerline)                     ; configure powerline
-(custom-set-faces
- '(mode-line ((t (:foreground "#030303" :background "#bdbdbd" :box nil))))
- '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil)))))
