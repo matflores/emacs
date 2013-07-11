@@ -23,9 +23,6 @@
 (global-set-key (kbd "C-x g")   'magit-status)  ; magit status
 (global-set-key (kbd "C-x C-g") 'magit-status)  ; magit status
 
-(global-set-key (kbd "C-x ?") 'help-command)       ; Use C-x ? for help
-(global-set-key (kbd "C-h") 'delete-backward-char) ; and C-h as backspace
-
 (global-set-key (kbd "C-x m") 'execute-extended-command) ; M-x without meta
 
 (global-set-key (kbd "C-c C-*") 'mc/edit-lines)          ; add multiple cursors to active region
