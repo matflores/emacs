@@ -20,4 +20,6 @@
 (setq custom-safe-themes t)             ; treat all themes as safe
 (add-to-list 'custom-theme-load-path    ; configure path for custom themes
              "~/.emacs.d/vendor/twilight")
-(load-theme 'twilight)                  ; load twilight theme
+(add-to-list 'custom-theme-load-path    ; configure path for custom themes
+             "~/.emacs.d/vendor/solarized")
+(load-theme 'solarized-dark)            ; load twilight theme
