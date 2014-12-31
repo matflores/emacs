@@ -43,6 +43,3 @@
 [submodule "vendor/expand-region"]
 	path = vendor/expand-region
 	url = git://github.com/magnars/expand-region.el.git
-[submodule "vendor/solarized"]
-	path = vendor/solarized
-	url = git://github.com/sellout/emacs-color-theme-solarized.git
