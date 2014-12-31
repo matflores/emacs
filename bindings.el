@@ -32,3 +32,5 @@
 
 (global-set-key (kbd "s-2") 'er/expand-region)   ; expand region
 (global-set-key (kbd "s-@") 'er/contract-region) ; contract region
+(global-set-key (kbd "C-=") 'er/expand-region)   ; expand region
+(global-set-key (kbd "s-d") 'er/mark-word)       ; mark current word
