@@ -22,4 +22,9 @@
 (setq savehist-file                     ; on the .savehist file
       "~/.emacs.d/.savehist")
 
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
+(package-initialize)
+
 (server-start)                          ; start the Emacs server
